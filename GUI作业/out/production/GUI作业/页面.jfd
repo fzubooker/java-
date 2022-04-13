@@ -1,0 +1,134 @@
+JFDML JFormDesigner: "7.0.5.1.409" Java: "11.0.6" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "this"
+			"$sizePolicy": 1
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) {
+				"rows": 2
+			} ) {
+				name: "panelEast"
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "buttonBack"
+					"text": "backspace"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "buttonEquals"
+					"text": "="
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "East"
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) {
+				"rows": 4
+				"columns": 3
+			} ) {
+				name: "panelCenter"
+				"foreground": new java.awt.Color( 153, 153, 255, 255 )
+				"background": new java.awt.Color( 255, 255, 255, 255 )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "num7"
+					"text": "7"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "num8"
+					"text": "8"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "num9"
+					"text": "9"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "num4"
+					"text": "4"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "num5"
+					"text": "5"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "num6"
+					"text": "6"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "num1"
+					"text": "1"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "num2"
+					"text": "2"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "num3"
+					"text": "3"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "num0"
+					"text": "0"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "buttonleft"
+					"text": "("
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "buttonRight"
+					"text": ")"
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+				name: "panelNorth"
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField1"
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "North"
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) {
+				"rows": 4
+			} ) {
+				name: "panelWest"
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "buttonDivision"
+					"text": "/"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "buttonMutiplication"
+					"text": "*"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "buttonSubtraction"
+					"text": "-"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "buttonPlus"
+					"text": "+"
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "West"
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+				name: "panelSouth"
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "South"
+			} )
+			menuBar: new FormContainer( "javax.swing.JMenuBar", new FormLayoutManager( class javax.swing.JMenuBar ) ) {
+				name: "menuBar1"
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menu1"
+					"text": "复制"
+				} )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menu2"
+					"text": "粘贴"
+				} )
+			}
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 35, 25 )
+			"size": new java.awt.Dimension( 730, 440 )
+		} )
+	}
+}
